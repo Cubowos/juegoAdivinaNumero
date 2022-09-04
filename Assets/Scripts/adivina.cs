@@ -14,10 +14,10 @@ public class adivina : MonoBehaviour
     private int numIntentos = 0;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         numeroAleatorio = Random.Range(1, 100);
-        imprimeNombre.text = "Hola" + registro.nombreReg + "adivina entre un numero entre 1 y 100 ";
+        imprimeNombre.text = "Hola " + registro.nombreReg + " adivina entre un numero entre 1 y 100 ";
         btnReiniciar.gameObject.SetActive(false); //oculta el boton
     }
        
@@ -41,10 +41,10 @@ public class adivina : MonoBehaviour
         }
         else
         {
-            txtResultado.text = "Felicidades " + registro.nombreReg + "el numero era" + numeroAleatorio;
-            txtResultado.text += "\n Adivinaste en " + numIntentos + "intentos";
-            btnReiniciar.gameObject.SetActive(true);
-            btnVerificar.gameObject.SetActive(false);
+            txtResultado.text = "Felicidades " + registro.nombreReg + " el numero era " + numeroAleatorio.ToString();
+            txtResultado.text += "\n adivinaste en " + numIntentos.ToString() + " intentos";
+            btnReiniciar.gameObject.SetActive(false);
+            btnVerificar.gameObject.SetActive(true);
         }
         ifNumero.text = "";
         }
