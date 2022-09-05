@@ -667,4 +667,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/inicio.unity
   - Assets/Scenes/main.unity
-  playerPath: C:/Users/drago/Documents/ATENEA/prueba.apk
+  playerPath: C:/Users/drago/Documents/ATENEA/adivina.apk

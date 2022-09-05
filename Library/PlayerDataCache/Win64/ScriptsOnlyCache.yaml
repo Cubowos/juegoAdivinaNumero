@@ -667,4 +667,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/inicio.unity
   - Assets/Scenes/main.unity
-  playerPath: C:/Users/drago/Documents/ATENEA/adivina.exe
+  playerPath: C:/Users/drago/Documents/juego/juegoAdivinaNumero/builds/adivina.exe

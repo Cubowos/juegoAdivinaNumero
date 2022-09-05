@@ -43,8 +43,8 @@ public class adivina : MonoBehaviour
         {
             txtResultado.text = "Felicidades " + registro.nombreReg + " el numero era " + numeroAleatorio.ToString();
             txtResultado.text += "\n adivinaste en " + numIntentos.ToString() + " intentos";
-            btnReiniciar.gameObject.SetActive(false);
-            btnVerificar.gameObject.SetActive(true);
+            btnReiniciar.gameObject.SetActive(true);
+            btnVerificar.gameObject.SetActive(false);
         }
         ifNumero.text = "";
         }
